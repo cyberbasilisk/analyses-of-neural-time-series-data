@@ -12,3 +12,5 @@ The Event Related Potential highlights information about data in the Time Domain
 Time-Frequency plots however, present features across both the Time domain and the Frequency domain. A Time-Frequency power plot for instance, will highlight not only the frequencies which exhibit power, but also the time points at which these power bursts occur. There are multiple methods of extracting Time-Frequency information from data.
 
 [time_freq_power_via_freq_mul](time_freq_power_via_freq_mul.ipynb) demonstrates the extraction of Time-Frequency Power via Frequency Domain Multiplication.
+
+[time_freq_via_filt_hilb](time_freq_via_filt_hilb.ipynb) demonstrates Time-Frequency Power extraction via the Filter-Hilbert method, using data from the [sampleEEGdata.mat](sampleEEGdata.mat) dataset.
