@@ -14,3 +14,5 @@ Time-Frequency plots however, present features across both the Time domain and t
 [time_freq_power_via_freq_mul](time_freq_power_via_freq_mul.ipynb) demonstrates the extraction of Time-Frequency Power via Frequency Domain Multiplication.
 
 [time_freq_via_filt_hilb](time_freq_via_filt_hilb.ipynb) demonstrates Time-Frequency Power extraction via the Filter-Hilbert method, using data from the [sampleEEGdata](sampleEEGdata.mat) dataset.
+
+[time_freq_baseline_power.ipynb](time_freq_baseline_power.ipynb) demonstrates the extraction of Time-Frequency Baseline Power. This is power relative to a window of time before stimulus.
