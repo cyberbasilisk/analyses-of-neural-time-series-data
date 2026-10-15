@@ -2,6 +2,7 @@
 Analysis methods applied to neural / EEG time series data.
 
 An Event Related Potential is a measured brain response that provides evidence of a link between brain electrical activity and a specific stimulus. 
+
 [erp](erp.ipynb) demonstrates extraction of the Event Related Potential using sample data from the [V1 Laminar](v1_laminar.mat) dataset. 
 
 A Static Power Spectra highlights active frequencies in a signal. It gives an idea of which frequency or frequencies are most dominant in the signal. It may also help in identifying some signal artifacts / anomalies. 
@@ -15,4 +16,6 @@ Time-Frequency plots however, present features across both the Time domain and t
 
 [time_freq_via_filt_hilb](time_freq_via_filt_hilb.ipynb) demonstrates Time-Frequency Power extraction via the Filter-Hilbert method, using data from the [sampleEEGdata](sampleEEGdata.mat) dataset.
 
-[time_freq_baseline_power.ipynb](time_freq_baseline_power.ipynb) demonstrates the extraction of Time-Frequency Baseline Power. This is power relative to a window of time before stimulus.
+[time_freq_baseline_power](time_freq_baseline_power.ipynb) demonstrates the extraction of Time-Frequency Baseline Power. This is power relative to a window of time before stimulus.
+
+Inter-Site Phase Clustering is a measure of synchronicity / connectivity between two populations of neurons. It quantifies the phase difference between channels / electrodes. ISPC values range from 0 to 1, with 1 signifying strong connectivity and 0 indicating absent or no connectivity. As demonstrated in [ispc](ispc.ipynb).
