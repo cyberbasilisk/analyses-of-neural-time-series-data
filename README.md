@@ -1,4 +1,4 @@
-# analyses-of-neural-time-series-data
+# Analyses Of Neural Time Series Data
 Analysis methods applied to neural / EEG time series data.
 
 An **Event Related Potential** is a measured brain response that provides evidence of a link between brain electrical activity and a specific stimulus. 
